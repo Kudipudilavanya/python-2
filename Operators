@@ -1,0 +1,80 @@
+In Python, operators are special symbols or keywords that perform operations on variables and values. Here are some of the commonly used Python operators:
+
+Arithmetic Operators:
+
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+% (Modulus)
+** (Exponentiation)
+// (Floor Division)
+Example:
+
+python
+
+a = 10
+b = 3
+sum_result = a + b
+Comparison Operators:
+
+== (Equal to)
+!= (Not equal to)
+< (Less than)
+> (Greater than)
+<= (Less than or equal to)
+>= (Greater than or equal to)
+Example:
+
+python
+
+x = 5
+y = 10
+is_equal = x == y
+Logical Operators:
+
+and (Logical AND)
+or (Logical OR)
+not (Logical NOT)
+Example:
+
+python
+
+p = True
+q = False
+result = p and q
+Assignment Operators:
+
+= (Assignment)
++= (Add and assign)
+-= (Subtract and assign)
+*= (Multiply and assign)
+/= (Divide and assign)
+%= (Modulus and assign)
+Example:
+
+python
+
+x = 5
+x += 3  # equivalent to x = x + 3
+Identity Operators:
+
+is (True if the operands are identical)
+is not (True if the operands are not identical)
+Example:
+
+python
+
+a = [1, 2, 3]
+b = [1, 2, 3]
+is_identical = a is b
+Membership Operators:
+
+in (True if a value is found in the sequence)
+not in (True if a value is not found in the sequence)
+Example:
+
+python
+
+my_list = [1, 2, 3, 4]
+is_present = 3 in my_list
